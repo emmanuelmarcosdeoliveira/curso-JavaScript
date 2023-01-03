@@ -1,2 +1,2 @@
-var nome = window.prompt(" O Manu Qual o nome da sua irma ?"); // Aqui vamos  informar o nome da minha irma.
-window.alert("Há entendi a " + nome + " essa ai eu conheço...");
+var n1 = window.prompt("Digite um numero = ");
+var n2 = window.prompt("Digite outro numero = ");
