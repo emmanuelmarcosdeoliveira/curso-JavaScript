@@ -21,13 +21,17 @@
 </head>
 
 <body>
-  <div id="area" onclick="clicar()" onmouseenter="entrar ()" onmouseout="sair()">
+  <div id="area">
     interaja...
   </div>
   <script>
     var a = window.document.getElementById('area')
+    a.addEventListener('click', clicar)
+    a.addEventListener('mouseenter', entrar)
+    a.addEventListener('mouseout', sair)
+
+
     function clicar() {
-      //Tudo que estiver aqui dentro só será executado quando for chamado o metódo clicar.
       a.innerText = 'Clicou'
       a.style.background = "red"
     }
@@ -35,9 +39,11 @@
       a.innerText = 'Entrou!'
     }
     function sair() {
-      a.innerText = "Saiu!"
+      a.innerText = 'Saiu!'
       a.style.background = 'green'
     }
+
+
 
   </script>
 
