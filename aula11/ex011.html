@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verifique a sua Cidadania</title>
+
+</head>
+<body>
+  <h1>Verificador de Cidadania</h1>
+  Que pais você nasceu?<br> <input type="text" name="txtcid" id="txcid">
+
+  <input type="button" value="Verificar a Cidadania" onclick="verificar()">
+
+  <div id="res">
+Resultado é:  
+</div>
+
+
+
+<script>
+  function verificar() {
+    var cid = window.document.querySelector('input#txcid')
+    var resultado = window.document.querySelector('div#res')
+    var cidadania = (cid.value) 
+  res.innerHTML = `Você nasceu no <strong> ${cidadania} </strong> `
+  if (cidadania == 'Brasil'){
+res.innerHTML = "Vocé é um cidadão Brasileiro(a)"
+  }else {
+    res.innerHTML = "Vocé é Estrangeiro(a)"
+  }
+}
+</script>
+</body>
+</html>
