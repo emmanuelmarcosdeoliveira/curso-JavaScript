@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Sexo</title>
+</head>
+<body>
+  <h1>Verificador de Sexo</h1>
+  Qua é o seu sexo <input type="text" name="txtsexo" id="txtsexo">
+  <input type="button" value="Verificar" onclick="verifique()">
+
+  <div id="res">
+Seu sexo é :
+  </div>
+<script>
+function verifique() {
+  var txsexo = window.document.querySelector('input#txtsexo')
+  var res = window.document.querySelector('div#res')
+  var meusexo = (txsexo.value)
+  res.innerHTML = `Seu Sexo é ${txsexo}`
+  if (meusexo == 'Masculino') {
+res.innerHTML += `Vocé é um Homem`
+  }
+
+  
+
+
+}
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Notas</title>
+  </head>
+<body>
+  <h1>Verificador de Notas da Escola</h1>
+  Que nota vocé tirou? <input type="number" name="txtnota" id="txtnota">
+  <input type="button" value="verifique" onclick="calcular()">
+  <div id='res'>
+Resultado
+  </div>
+
+<Script>
+function calcular() {
+  var txnotas = window.document.querySelector('input#txtnota')
+  var res = window.document.querySelector('div#res')
+var resul = Number(txnotas.valeu)
+res.innerHTML = `Você tirou a  nota de ${resul}`
+} 
+
+</Script>
+
+</body>
+</html>

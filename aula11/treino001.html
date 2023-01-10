@@ -22,15 +22,12 @@
       var cid = window.document.querySelector('input#txcid')
       var res = window.document.querySelector('div#res')
       var resu = (cid.value)
-      res.innerHTML = `Vocé mora na Cidade de <strong>${resu} </strong>`
-      if (resu == 'São Paulo') {
-        res.innerHTML = ('Vocé é Paulista')
+      res.innerHTML = `Vocé mora na Cidade de <strong>${resu} </strong> <br>`
+      if (resu == 'São Paulo')  {
+        res.innerHTML += ('Vocé é Paulista')
       }
     }
   </script>
-
-
-
 </body>
 
 </html>
