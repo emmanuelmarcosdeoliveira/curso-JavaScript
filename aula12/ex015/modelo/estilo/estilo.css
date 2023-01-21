@@ -1,5 +1,6 @@
 body {
 background-color: rgba(57, 57, 245, 0.733);
+/* background-image: url(https://img.quizur.com/f/img607731412d2e66.97858081.png?lastEdited=1618424138) */
 font-family: Arial, Helvetica, sans-serif;
 font-size: 1rem;
 }
@@ -19,8 +20,6 @@ section {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
   
 }
-
-
 
 footer {
   
