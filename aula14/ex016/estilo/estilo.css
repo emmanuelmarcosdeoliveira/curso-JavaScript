@@ -13,16 +13,21 @@ section {
 
   background-color: #f7f7f7;
   border-radius: 10px;
+  width: 400px;
   padding: 15px;
-  width: 500px;
-  height: 400px;
-  00px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
-  
+  }
+
+
+section{
+  text-align: center;
+padding: 10px;
 }
 
-
+div {
+  padding: 10px;
+}
 
 footer {
   
