@@ -44,3 +44,7 @@ footer a {
  footer a:hover{
   text-decoration: underline;
    }
+
+   section div#res {
+    font-size: 1.3rem;
+   }
