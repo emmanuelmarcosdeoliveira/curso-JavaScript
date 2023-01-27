@@ -1,4 +1,4 @@
-function verificar() {
+function contar() {
   var cxt = document.getElementById("txtini");
   var nxt = document.getElementById("txtfim");
   var pas = document.getElementById("txtpas");
