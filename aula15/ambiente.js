@@ -27,3 +27,10 @@ num.sort()
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
 console.log(`O primeiro valor ao array é ${num[0]} `)
+let pos = num.indexOf(2)
+if (pos == -1 ) {
+  console.log("O Valor não foi encontrado")
+}else {
+
+  console.log(`O valor  está na posição ${pos}`)
+}
