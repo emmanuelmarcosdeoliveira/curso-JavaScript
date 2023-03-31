@@ -1,5 +1,5 @@
 
-var hora = 12 
+var hora = 18 
 // Acima foi criado a variável para ser digitado o valor da hora
 console.log(`Agora são exatamente ${hora} horas`)
 // Acima é escrito na tela o valor digitado da hora 

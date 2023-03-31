@@ -19,9 +19,11 @@ function verifique() {
   var txsexo = window.document.querySelector('input#txtsexo')
   var res = window.document.querySelector('div#res')
   var meusexo = (txsexo.value)
-  res.innerHTML = `Seu Sexo é ${txsexo}`
+  res.innerHTML = `Seu Sexo é ${txsexo.value}`
   if (meusexo == 'Masculino') {
 res.innerHTML += `Vocé é um Homem`
+  }else {
+    res.innerHTML += "Você é Mulher"
   }
 
   

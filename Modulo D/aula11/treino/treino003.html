@@ -18,8 +18,9 @@ Resultado
 function calcular() {
   var txnotas = window.document.querySelector('input#txtnota')
   var res = window.document.querySelector('div#res')
-var resul = Number(txnotas.valeu)
-res.innerHTML = `Você tirou a  nota de ${resul}`
+  var resul = (txnotas.value)
+  console.log(txnotas)
+res.innerHTML += `Você tirou a  nota de ${resul}`
 } 
 
 </Script>
